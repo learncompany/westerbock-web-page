@@ -1,0 +1,11 @@
+services:
+  lc-frontend:
+    build: .
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    #environment:
+      #- API_TOKEN=bddf4670fd489aad50262304a21b46b27c954366eb4eb94ae748a273fb11dc4e07511ff139c3b1dbf8dcd37c5e34680fe9b79b8e20785fdab7201d9aacf520bc6f09c334c3a9f215090f08d5b1e81a570bbca0340e4a0616100f21bc88da8616ef21b329652a246a2204f8d050c212fa5699c5cad98f5c104fcb06ae536e4ced
+      #- VITE_STRAPI_URL=https://app.learncompany.de
+    ports:
+      - "3010:3000"
+    restart: unless-stopped
