@@ -1,5 +1,7 @@
-export default function Rasenpflege() {
+import Rasenpflege from "../components/rasenpflege";
+
+export default function RasenpflegePage() {
   return (
-    <div>rasenpflege</div>
+    <Rasenpflege/>
   )
 }

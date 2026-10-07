@@ -1,5 +1,7 @@
-export default function Objektbetreuung() {
+import Objektbetreuung from "../components/objektbetreuung";
+
+export default function ObjektbetreuungPage() {
   return (
-    <div>objektbetreuung</div>
+    <Objektbetreuung/>
   )
 }

@@ -1,5 +1,7 @@
-export default function winterdienst() {
+import Winterdienst from "../components/winterdienst";
+
+export default function winterdienstPage() {
   return (
-    <div>winterdienst</div>
+    <Winterdienst/>
   )
 }

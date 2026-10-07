@@ -1,5 +1,7 @@
-export default function Grundreinigung() {
+import Grundreinigung from "../components/grundreinigung";
+
+export default function GrundreinigungPage() {
   return (
-    <div>grundreinigung</div>
+    <Grundreinigung/>
   )
 }

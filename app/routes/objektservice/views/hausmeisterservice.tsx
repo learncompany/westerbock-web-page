@@ -1,5 +1,7 @@
-export default function Hausmeisterservice() {
+import Hausmeisterservice from "../components/hausmeisterservice";
+
+export default function HausmeisterservicePage() {
     return (
-        <div>hausmeisterservice</div>
+        <Hausmeisterservice/>
     )
 }

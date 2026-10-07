@@ -1,4 +1,3 @@
-import React from 'react'
 import fullPic from '../../../assets/pictures/logo/berg-rhein-all-copy.png'
 
 import pic1 from "../../../assets/pictures/generall.jpg"

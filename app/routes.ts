@@ -21,7 +21,7 @@ export default [
             index("routes/gruenflaechenpflege/views/gruenflaechenpflege-main.tsx"),
             route("gartenpflege", "routes/gruenflaechenpflege/views/gartenpflege.tsx"),
             route("rasenpflege", "routes/gruenflaechenpflege/views/rasenpflege.tsx"),
-            route("laubbeseitigung", "routes/gruenflaechenpflege/views/laub.tsx"),
+            route("laubbeseitigung", "routes/gruenflaechenpflege/views/laubbeseitigung.tsx"),
             route("winterdienst", "routes/gruenflaechenpflege/views/winterdienst.tsx"),
         ]),
 

@@ -1,7 +1,7 @@
-import React from 'react'
+import Unterhaltsreinigung from "../components/unterhaltsreinigung";
 
-export default function Unterhaltsreinigung() {
+export default function UnterhaltsreinigungPage() {
   return (
-    <div>unterhaltsreinigung</div>
+    <Unterhaltsreinigung/>
   )
 }

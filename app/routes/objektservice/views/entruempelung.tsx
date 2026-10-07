@@ -1,5 +1,7 @@
-export default function Entruempelung() {
+import Entruempelung from "../components/entruempelung";
+
+export default function EntruempelungPage() {
   return (
-    <div>entruempelung</div>
+    <Entruempelung/>
   )
 }

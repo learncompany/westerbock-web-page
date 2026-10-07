@@ -1,5 +1,7 @@
-export default function Bueroreinigung() {
+import Bueroreinigung from "../components/bueroreinigung";
+
+export default function BueroreinigungPage() {
   return (
-    <div>bueroreinigung</div>
+    <Bueroreinigung/>
   )
 }

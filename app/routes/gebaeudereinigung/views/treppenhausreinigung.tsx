@@ -1,5 +1,7 @@
-export default function Treppenhausreinigung() {
+import Treppenhausreinigung from "../components/treppenhausreinigung";
+
+export default function TreppenhausreinigungPage() {
   return (
-    <div>treppenhausreinigung</div>
+    <Treppenhausreinigung/>
   )
 }

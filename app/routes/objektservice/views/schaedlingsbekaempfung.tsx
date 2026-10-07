@@ -1,5 +1,7 @@
-export default function Schaedlingsbekaempfung() {
+import Schaedlingsbekaempfung from "../components/schaedlingsbekaempfung";
+
+export default function SchaedlingsbekaempfungPage() {
   return (
-    <div>schaedlingsbekaempfung</div>
+    <Schaedlingsbekaempfung/>
   )
 }

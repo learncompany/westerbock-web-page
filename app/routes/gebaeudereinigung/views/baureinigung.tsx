@@ -1,5 +1,7 @@
-export default function Baureinigung() {
+import Baureinigung from "../components/baureinigung";
+
+export default function BaureinigungPage() {
   return (
-    <div>baureinigung</div>
+    <Baureinigung/>
   )
 }
