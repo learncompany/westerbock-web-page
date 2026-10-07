@@ -7,6 +7,7 @@ import logo from "../assets/only-b-r-leaf.svg"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion";
 import Footer from "../components/Footer";
 import { Button } from "../components/ui/button";
+import { motion } from "motion/react";
 
 export default function MenuLayout() {
 
@@ -19,7 +20,11 @@ export default function MenuLayout() {
     return (
         <>
             {/** DESKTOP */}
-            <nav className="hidden lg:flex w-full justify-center items-center fixed top-0 min-h-28 z-50 gap-4">
+            <motion.nav className="hidden lg:flex w-full justify-center items-center fixed top-0 min-h-28 z-50 gap-4"
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 5, type: "keyframes" }}
+            >
 
                 <NavLink className="size-fit slide-in-from-left-100" to={"/"} viewTransition>
                     <img
@@ -30,7 +35,7 @@ export default function MenuLayout() {
                 </NavLink>
 
                 {/* <NavigationMenu className="bg-white/50 backdrop-blur-3xl rounded-md p-2 animate-in fade-in duration-700 text-sky-900 min-w-3xl font-grotesk shadow-lg"> */}
-                <NavigationMenu className="bg-gradient-to-r backdrop-blur-3xl bg-white/90 text-sky-900 rounded-2xl p-2 animate-in fade-in duration-700 min-w-3xl font-grotesk shadow-lg ring ring-zinc-300 hover:ring hover:ring-zinc-300">
+                <NavigationMenu className="bg-gradient-to-r backdrop-blur-3xl bg-white/90 text-sky-900 rounded-2xl p-2 duration-700 min-w-3xl font-grotesk shadow-lg ring ring-zinc-300 hover:ring hover:ring-zinc-300">
                     <NavigationMenuList className="">
 
                         {
@@ -77,7 +82,7 @@ export default function MenuLayout() {
                         Angebot Anfragen
                     </Button>
                 </NavLink>
-            </nav>
+            </motion.nav>
 
             {/** MOBILE */}
             <nav
@@ -147,6 +152,7 @@ export default function MenuLayout() {
         </>
     )
 }
+
 const MobileMenuContent = ({ menuIsClicked, setIsMenuClicked }: { menuIsClicked: boolean, setIsMenuClicked: Dispatch<SetStateAction<boolean>> }) => {
     return (
         <div className="size-full">
