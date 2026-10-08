@@ -1,27 +1,3 @@
-import {
-  ArrowUpRight,
-  Check,
-  ChevronRight,
-  Building2,
-  Wrench,
-  ClipboardCheck,
-  PackageOpen,
-  SunMedium,
-  ShieldCheck,
-  Sparkles,
-} from "lucide-react"
-
-import { motion } from "motion/react"
-
-import { Badge } from "../../../components/ui/badge"
-import { Button } from "../../../components/ui/button"
-
-import betreuung from "../../../assets/pictures/grundreinigung.jpg"
-import bueroreinigung from "../../../assets/pictures/bueroreinigung.jpg"
-import winterdienst from "../../../assets/pictures/winterdienst.jpg"
-import glasreinigung from "../../../assets/pictures/glasreinigung.jpg"
-
-
 import ObjektserviceHero from "./objektservice-hero"
 import Hausmeisterservice from "./hausmeisterservice"
 import Objektbetreuung from "./objektbetreuung"
