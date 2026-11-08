@@ -51,6 +51,7 @@ export default function Treppenhausreinigung() {
       />
 
       <ServiceButton
+      linkUrl="/kontakt"
         label="Angebot für Treppenhausreinigung anfragen"
         light
       />

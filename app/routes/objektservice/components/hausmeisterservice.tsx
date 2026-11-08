@@ -49,7 +49,7 @@ export default function Hausmeisterservice() {
         nur im Rahmen der jeweils zulässigen Tätigkeiten.
       </p>
 
-      <ObjektServiceButton label="Hausmeisterservice anfragen" />
+      <ObjektServiceButton label="Hausmeisterservice anfragen" linkUrl="/kontakt"/>
 
     </ObjektServiceSection>
   )

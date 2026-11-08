@@ -1,11 +1,12 @@
 import { ArrowUpRight, Building2, Check, ChevronRight, Leaf, Wrench } from 'lucide-react'
 import { motion } from 'motion/react'
 import { Badge } from '../../../components/ui/badge'
-import { Card } from '../../../components/ui/card'
+import { Card, CardFooter } from '../../../components/ui/card'
 
 import glasreinigung from "../../../assets/pictures/glasreinigung.jpg"
 import winterdienst from "../../../assets/pictures/winterdienst.jpg"
 import bueroreinigung from "../../../assets/pictures/bueroreinigung.jpg"
+import { Link } from 'react-router'
 
 const companyServices = [
   {
@@ -25,6 +26,7 @@ const companyServices = [
       "Baureinigung",
       "Grundreinigung",
     ],
+    linkUrl:"/gebaeudereinigung"
   },
   {
     id: "02",
@@ -41,6 +43,7 @@ const companyServices = [
       "Laubarbeiten",
       "Winterdienst",
     ],
+    linkUrl:"/gruenflaechenpflege"
   },
   {
     id: "03",
@@ -58,6 +61,7 @@ const companyServices = [
       "Photovoltaik",
       "Schädlingsbekämpfung",
     ],
+    linkUrl:"/objektservice"
   },
 ]
 
@@ -193,10 +197,10 @@ export default function ServiceSystem() {
 
                     </div>
 
-                    <div className="mt-8 flex items-center gap-2 text-sm font-medium text-[#6CCF82]">
+                    <Link to={service.linkUrl} className="mt-8 flex items-center gap-2 text-sm font-medium text-[#6CCF82]" viewTransition>
                       Mehr erfahren
                       <ChevronRight className="size-4 transition-transform group-hover:translate-x-1" />
-                    </div>
+                    </Link>
 
                   </div>
 
@@ -210,3 +214,5 @@ export default function ServiceSystem() {
       </section>
   )
 }
+
+

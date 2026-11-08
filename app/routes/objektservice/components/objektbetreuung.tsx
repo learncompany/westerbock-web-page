@@ -51,6 +51,7 @@ export default function Objektbetreuung() {
       <ObjektServiceButton
         label="Objektbetreuung anfragen"
         light
+        linkUrl="/kontakt"
       />
 
     </ObjektServiceSection>

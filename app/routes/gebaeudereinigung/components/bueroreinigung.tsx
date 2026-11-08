@@ -45,7 +45,7 @@ export default function Bueroreinigung() {
         items={items}
       />
 
-      <ServiceButton label="Büroreinigung anfragen" />
+      <ServiceButton label="Büroreinigung anfragen" linkUrl="/kontakt"/>
 
     </ServiceSection>
   )

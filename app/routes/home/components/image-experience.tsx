@@ -1,5 +1,6 @@
 import { motion } from "motion/react"
-import logoFull from "../../../assets/pictures/logo/berg-rhein-all-copy.png"
+// import logoFull from "../../../assets/pictures/logo/berg-rhein-all-copy.png"
+import logoFull from "../../../assets/pictures/logo/westerbock.png"
 import imgSecondary from "../../../assets/pictures/bueroreinigung.jpg"
 import { ShieldCheck } from "lucide-react"
 import { Badge } from "../../../components/ui/badge"
@@ -64,7 +65,7 @@ export default function ImageExperience() {
                   whileHover={{ scale: 1.04 }}
                   transition={{ duration: 1 }}
                   src={logoFull}
-                  alt="Team der Bergisch Rheinische Gebäudedienste"
+                  alt="Team der Westerbock Gebäudeservice GmbH"
                   className="h-full w-full object-contain p-1"
                 />
 

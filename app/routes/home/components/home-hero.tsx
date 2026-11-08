@@ -1,4 +1,5 @@
-import fullPic from '../../../assets/pictures/logo/berg-rhein-all-copy.png'
+// import fullPic from '../../../assets/pictures/logo/berg-rhein-all-copy.png'
+import fullPic from '../../../assets/pictures/logo/westerbock.png'
 
 import pic1 from "../../../assets/pictures/generall.jpg"
 import pic2 from "../../../assets/pictures/bueroreinigung.jpg"

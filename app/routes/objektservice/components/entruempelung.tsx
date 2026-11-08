@@ -44,7 +44,7 @@ export default function Entruempelung() {
         items={items}
       />
 
-      <ObjektServiceButton label="Entrümpelung anfragen" />
+      <ObjektServiceButton label="Entrümpelung anfragen" linkUrl="/kontakt"/>
 
     </ObjektServiceSection>
   )

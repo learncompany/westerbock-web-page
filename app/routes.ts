@@ -38,13 +38,12 @@ export default [
             index("routes/ueber-uns/views/ueber-uns-main.tsx")
         ]),
 
-        route("angebot-anfragen", "routes/angebot-anfragen/angebot-anfragen-intro.tsx", [
-            index("routes/angebot-anfragen/views/angebot-anfragen-main.tsx")
-        ]),
-
         route("kontakt", "routes/kontakt/kontakt-intro.tsx", [
             index("routes/kontakt/views/kontakt-main.tsx")
         ]),
+
+        route("danke", "routes/danke/danke.tsx"),
+        route("datenschutz", "routes/datenschutz/datenschutz.tsx"),
 
     ])
 ] satisfies RouteConfig;

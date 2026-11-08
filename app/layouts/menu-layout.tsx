@@ -3,7 +3,7 @@ import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMe
 import { linkList } from "../data/general-data";
 import { ArrowRight, ChevronDownIcon, Globe2, Menu, MenuIcon, X } from "lucide-react";
 import { useEffect, useState, type Dispatch, type SetStateAction } from "react";
-import logo from "../assets/only-b-r-leaf.svg"
+import logo from "../assets/only-wb.svg"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion";
 import Footer from "../components/Footer";
 import { Button } from "../components/ui/button";
@@ -23,7 +23,7 @@ export default function MenuLayout() {
             <motion.nav className="hidden lg:flex w-full justify-center items-center fixed top-0 min-h-28 z-50 gap-4"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 5, type: "keyframes" }}
+                transition={{ delay: 0, type: "keyframes" }}
             >
 
                 <NavLink className="size-fit slide-in-from-left-100" to={"/"} viewTransition>
@@ -74,7 +74,7 @@ export default function MenuLayout() {
                     </NavigationMenuList>
                 </NavigationMenu>
 
-                <NavLink className="size-fit slide-in-from-left-100" to={"/angebot-anfragen"} viewTransition>
+                <NavLink className="size-fit slide-in-from-left-100" to={"/kontakt#angebot-anfragen"} viewTransition>
                     <Button
                         variant={"outline"}
                         // src={`url(${logo})`} 
@@ -198,7 +198,7 @@ const MobileMenuContent = ({ menuIsClicked, setIsMenuClicked }: { menuIsClicked:
                 })}
                 <AccordionItem value={"angebot-anfragen"} key={"angebot-anfragen"} className="rounded-xl border-none">
                     <AccordionTrigger className="text-sky-900/90 border-none text-3xl" onClick={() => setIsMenuClicked(false)}>
-                        <NavLink to={"/angebot-anfragen"}>Angebot Anfragen</NavLink>
+                        <NavLink to={"/kontakt#angebot-anfragen"}>Angebot Anfragen</NavLink>
                     </AccordionTrigger>
                 </AccordionItem>
             </Accordion>

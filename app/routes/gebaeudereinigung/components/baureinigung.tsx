@@ -41,7 +41,7 @@ export default function Baureinigung() {
 
             <div className="mt-9">
 
-              <ServiceButton label="Angebot für Baureinigung anfragen" />
+              <ServiceButton label="Angebot für Baureinigung anfragen" linkUrl="/kontakt"/>
 
             </div>
 

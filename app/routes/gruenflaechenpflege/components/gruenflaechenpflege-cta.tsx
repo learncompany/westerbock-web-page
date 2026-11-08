@@ -1,5 +1,6 @@
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { Button } from "../../../components/ui/button";
+import GruenServiceButton from "./gruen-service-button";
 
 export default function GruenflaechenpflegeCTA() {
   return (
@@ -41,7 +42,7 @@ export default function GruenflaechenpflegeCTA() {
               stimmen Umfang und Ablauf individuell auf Ihr Grundstück ab.
             </p>
 
-            <Button
+            {/* <Button
               size="lg"
               className="group mt-9 bg-gradient-to-r from-[#139033] to-[#12641A] px-7 text-white shadow-xl shadow-black/20 hover:opacity-90"
             >
@@ -50,7 +51,10 @@ export default function GruenflaechenpflegeCTA() {
 
               <ArrowUpRight className="ml-2 size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
 
-            </Button>
+            </Button> */}
+            <GruenServiceButton label={"Angebot anfragen"} linkUrl={"/kontakt"}/>
+
+            
 
           </div>
 

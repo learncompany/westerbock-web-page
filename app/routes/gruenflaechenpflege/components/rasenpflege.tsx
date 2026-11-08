@@ -43,6 +43,7 @@ export default function Rasenpflege() {
       />
 
       <GruenServiceButton
+      linkUrl="/kontakt"
         label="Rasenpflege anfragen"
         light
       />

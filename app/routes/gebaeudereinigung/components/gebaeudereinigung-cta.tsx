@@ -1,5 +1,6 @@
 import { ArrowUpRight, Sparkles } from "lucide-react"
 import { Button } from "../../../components/ui/button"
+import { Link } from "react-router"
 
 export default function GebaeudereinigungCTA() {
   return (
@@ -44,7 +45,7 @@ export default function GebaeudereinigungCTA() {
 
             <Button
               size="lg"
-              className="group mt-9 bg-gradient-to-r from-[#139033] to-[#12641A] px-7 text-white shadow-xl shadow-black/20 hover:opacity-90"
+              className="group mt-9 bg-gradient-to-r from-[#139033] to-[#12641A] text-white shadow-xl shadow-black/20 hover:opacity-90 px-0 overflow-clip"
               onClick={() => {
                 document
                   .getElementById("kontaktformular")
@@ -53,9 +54,13 @@ export default function GebaeudereinigungCTA() {
                   })
               }}
             >
+              <Link to={"/kontakt"}
+              className="size-full px-7 flex items-center"
+              viewTransition
+              >
               Angebot anfragen
-
               <ArrowUpRight className="ml-2 size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </Link>
             </Button>
 
           </div>

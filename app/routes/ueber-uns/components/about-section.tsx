@@ -22,7 +22,6 @@ import { Button } from "../../../components/ui/button"
 import { Card } from "../../../components/ui/card"
 import { Input } from "../../../components/ui/input"
 import { Textarea } from "../../../components/ui/textarea"
-import ContactForm from "../../../components/contact-form"
 
 
 /* =========================================================
@@ -84,8 +83,6 @@ export function AboutSection() {
 
       <OfferSection />
 
-      <ContactForm />
-
       <ContactCTA />
 
     </main>
@@ -133,7 +130,7 @@ function AboutHero() {
             </div>
 
             <p className="text-sm font-medium text-[#6CCF82] sm:text-base">
-              Bergisch Rheinische Gebäudedienste GmbH
+              Westerbock Gebäudeservice GmbH
             </p>
 
             <h1 className="mt-5 max-w-5xl text-5xl font-semibold leading-[0.98] tracking-[-0.045em] sm:text-7xl lg:text-8xl">
@@ -160,7 +157,7 @@ function AboutHero() {
           >
 
             <p className="max-w-xl text-lg leading-8 text-white/65">
-              Die Bergisch Rheinische Gebäudedienste GmbH verbindet
+              Die Westerbock Gebäudeservice GmbH verbindet
               eine neue Unternehmensstruktur mit acht Jahren praktischer
               Erfahrung.
             </p>
@@ -331,8 +328,7 @@ function AboutStory() {
               </p>
 
               <p>
-                Auf diesem Anspruch bauen wir die Bergisch Rheinische
-                Gebäudedienste GmbH auf.
+                Auf diesem Anspruch bauen wir die Westerbock Gebäudeservice GmbH auf.
               </p>
 
             </div>
@@ -395,9 +391,7 @@ function AboutStory() {
                   </p>
 
                   <p className="mt-4 text-sm leading-6 text-[#6F7782]">
-                    Der Name Bergisch Rheinische Gebäudedienste steht
-                    deshalb nicht nur für unser Unternehmen. Er steht
-                    auch für die Region, in der wir arbeiten.
+                    Der Name Westerbock Gebäudeservice GmbH steht deshalb nicht nur für unser Unternehmen. Er steht auch für unsere Werte, unsere Arbeit und unseren Anspruch an Qualität und Zuverlässigkeit.
                   </p>
 
                 </div>
@@ -639,9 +633,9 @@ function OfferSection() {
                 />
 
                 <InfoRow
-                  icon={MapPin}
-                  title="Regional"
-                  text="Bergisch & Rheinisch"
+                  icon={ShieldCheck}
+                  title="Zuverlässig"
+                  text="Qualität und Vertrauen bei jedem Auftrag."
                 />
 
               </div>
@@ -711,7 +705,7 @@ function InfoRow({
    Kann auf jeder Leistungsseite verwendet werden.
 ========================================================= */
 
-export function ContactCTA() {
+function ContactCTA() {
   return (
     <section className="px-5 pb-24 sm:px-8 sm:pb-32">
 

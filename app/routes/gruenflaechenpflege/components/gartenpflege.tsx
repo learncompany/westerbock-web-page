@@ -45,7 +45,7 @@ export default function Gartenpflege() {
         items={items}
       />
 
-      <GruenServiceButton label="Gartenpflege anfragen" />
+      <GruenServiceButton label="Gartenpflege anfragen" linkUrl={"/kontakt"} />
 
     </GruenServiceSection>
   )

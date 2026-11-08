@@ -1,6 +1,6 @@
 
 import { motion } from "motion/react"
-import logo from "../../../assets/only-b-r-leaf.svg"
+import logo from "../../../assets/only-wb.svg"
 
 export default function IntroStatement() {
   return (
@@ -26,7 +26,7 @@ export default function IntroStatement() {
                 <span className="h-px w-10 bg-gradient-to-r from-[#139033] to-[#12641A]" />
 
                 <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6F7782]">
-                  Bergisch Rheinische Gebäudedienste
+                  Westerbock Gebäudeservice GmbH
                 </span>
 
               </motion.div>
@@ -83,7 +83,7 @@ export default function IntroStatement() {
                 duration: 1.4,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              src="/images/intro/immobilie.jpg"
+              // src="/images/intro/immobilie.jpg"
               alt="Gepflegte Immobilie"
               className="h-full w-full object-cover"
             />
@@ -118,3 +118,6 @@ export default function IntroStatement() {
       </section>
   )
 }
+
+
+

@@ -1,5 +1,6 @@
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import { Button } from "../../../components/ui/button";
+import { Link } from "react-router";
 
 export default function ObjektserviceCTA() {
   return (
@@ -43,12 +44,14 @@ export default function ObjektserviceCTA() {
 
             <Button
               size="lg"
-              className="group mt-9 bg-gradient-to-r from-[#139033] to-[#12641A] px-7 text-white shadow-xl shadow-black/20 hover:opacity-90"
+              className="group mt-9 bg-gradient-to-r from-[#139033] to-[#12641A] px-0 text-white shadow-xl shadow-black/20 hover:opacity-90"
             >
 
+              <Link to="/kontakt" className="size-full flex items-center px-7" viewTransition>
               Angebot anfragen
 
               <ArrowUpRight className="ml-2 size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </Link>
 
             </Button>
 

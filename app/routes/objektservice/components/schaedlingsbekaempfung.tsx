@@ -36,7 +36,7 @@ export default function Schaedlingsbekaempfung() {
         Abwicklung.
       </p>
 
-      <ObjektServiceButton label="Anfrage Schädlingsbekämpfung" />
+      <ObjektServiceButton label="Anfrage Schädlingsbekämpfung" linkUrl="/kontakt"/>
 
     </ObjektServiceSection>
   )

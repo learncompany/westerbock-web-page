@@ -50,6 +50,7 @@ export default function Winterdienst() {
       <GruenServiceButton
         label="Winterdienst anfragen"
         light
+        linkUrl="/kontakt"
       />
 
     </GruenServiceSection>

@@ -48,6 +48,7 @@ export default function Glasreinigung() {
       />
 
       <ServiceButton
+      linkUrl="/kontakt"
         label="Angebot für Glasreinigung anfragen"
         light
       />

@@ -41,6 +41,7 @@ export default function PhotovoltaikReinigung() {
       <ObjektServiceButton
         label="Photovoltaik Reinigung anfragen"
         light
+        linkUrl="/kontakt"
       />
 
     </ObjektServiceSection>

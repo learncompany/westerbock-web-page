@@ -55,7 +55,7 @@ export default function Unterhaltsreinigung() {
         items={items}
       />
 
-      <ServiceButton label="Angebot für Unterhaltsreinigung anfragen" />
+      <ServiceButton linkUrl="/kontakt" label="Angebot für Unterhaltsreinigung anfragen" />
 
     </ServiceSection>
   )

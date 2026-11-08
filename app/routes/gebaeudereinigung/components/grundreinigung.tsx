@@ -46,7 +46,7 @@ export default function Grundreinigung() {
         items={items}
       />
 
-      <ServiceButton label="Grundreinigung anfragen" />
+      <ServiceButton label="Grundreinigung anfragen" linkUrl="/kontakt" />
 
     </ServiceSection>
   )

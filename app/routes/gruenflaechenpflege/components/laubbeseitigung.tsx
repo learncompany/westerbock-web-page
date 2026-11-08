@@ -44,7 +44,7 @@ export default function Laubbeseitigung() {
         items={items}
       />
 
-      <GruenServiceButton label="Laubbeseitigung anfragen" />
+      <GruenServiceButton label="Laubbeseitigung anfragen" linkUrl="/kontakt"/>
 
     </GruenServiceSection>
   )
