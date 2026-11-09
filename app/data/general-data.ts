@@ -84,11 +84,19 @@ export const linkList: Link[] = [
             },
         ]
     },
+
+    /**Winterdienst */
+    {
+        name: "Winterdienst",
+        url: "/gruenflaechenpflege/winterdienst"
+    },
+
     /**Überuns */
     {
         name: "Über uns",
         url: "/ueber-uns",
     },
+
 
     /** Kontakt */
     {
