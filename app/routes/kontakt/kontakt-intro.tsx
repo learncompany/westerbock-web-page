@@ -100,8 +100,8 @@ export async function action({ request }: Route.ActionArgs) {
 
 
     const response = await fetch(
-      // "http://host.docker.internal:5252/api/contact",
-      "http://localhost:5252/api/contact",
+      "http://host.docker.internal:5252/api/contact",
+      // "http://localhost:5252/api/contact",
 
       {
         method: "POST",
