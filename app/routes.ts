@@ -44,6 +44,7 @@ export default [
 
         route("danke", "routes/danke/danke.tsx"),
         route("datenschutz", "routes/datenschutz/datenschutz.tsx"),
+        route("impressum", "routes/impressum/impressum.tsx"),
 
     ])
 ] satisfies RouteConfig;
